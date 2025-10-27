@@ -3,108 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mi sitio personal - Segundo avance</title>
+  <title>Mi sitio personal - Primer avance</title>
   <style>
-    /* === Estilos generales === */
-    body { 
-      font-family: Arial, Helvetica, sans-serif; 
-      line-height: 1.5; 
-      margin: 0; 
-      padding: 0;
-      background-color: #e8f5e9; /* color de fondo del sitio */
-    }
-
-    header, footer { 
-      background: #ffffff; 
-      color: white; 
-      text-align: center; 
-      padding: 12px 0;
-    }
-
-    nav { 
-      background: #ffffff; 
-      padding: 10px; 
-      margin-bottom: 16px; 
-    }
-
-    nav ul { 
-      list-style: none; 
-      padding: 0; 
-      display: flex; 
-      gap: 12px; 
-      justify-content: center;
-    }
-
-    nav a { 
-      text-decoration: none; 
-      color: #004d40; 
-      font-weight: bold; 
-    }
-
-    section { margin-bottom: 20px; }
-
-    article { 
-      margin-bottom: 12px; 
-      padding: 12px; 
-      border: 1px solid #ddd; 
-      border-radius: 8px; 
-      background: #ffffff;
-    }
-
-    aside { 
-      background: #f9f9f9; 
-      padding: 12px; 
-      border-left: 4px solid #004d40; 
-      margin-bottom: 20px;
-    }
-
-    .gallery img { 
-      max-width: 100%; 
-      height: auto; 
-      display: block; 
-      margin-bottom: 8px; 
-      border-radius: 6px; 
-    }
-
-    footer p { 
-      margin: 6px 0; 
-      font-size: 0.95rem; 
-    }
-
-    /* === Selectores === */
-    h2 {
-      color: #2e7d32; /* cambia el color de los títulos */
-    }
-
-    /* === Clases para tamaños de texto === */
-    .texto-grande {
-      font-size: 1.3rem;
-    }
-
-    .texto-pequeno {
-      font-size: 0.9rem;
-      color: #ffffff;
-    }
-
-    /* === ID para tipo de letra especial === */
-    #sobre-mi {
-      font-family: "Georgia", serif;
-    }
-
-    #gustos {
-      font-family: "Trebuchet MS", sans-serif;
-    }
-
-    #viajes {
-      font-family: "Courier New", monospace;
-    }
+    /* Estilos para primer avance */
+    body { font-family: Arial, Helvetica, sans-serif; line-height:1.5; margin:0; padding:0; }
+    body { background-color: #f5f5f5; }
+    header, footer { background: #004d40; color: white; text-align:center; padding:12px 0; }
+    main { padding:20px; max-width:900px; margin:0 auto; }
+    nav { background:#eee; padding:10px; margin-bottom:16px; }
+    nav ul { list-style:none; padding:0; display:flex; gap:12px; }
+    nav a { text-decoration:none; color:#036; }
+    section { margin-bottom:20px; }
+    article { margin-bottom:12px; padding:12px; border:1px solid #ddd; border-radius:8px; }
+    aside { background:#f9f9f9; padding:12px; border-left:4px solid #0b6; margin-bottom:20px; }
+    .gallery img { max-width:100%; height:auto; display:block; margin-bottom:8px; border-radius:6px; }
+    footer p { margin:6px 0; font-size:0.95rem; }
   </style>
 </head>
 <body>
-
 <header>
   <h1>Mi sitio personal</h1>
-  <p class="texto-pequeno">Segundo avance — información sobre mí, mis gustos y viajes</p>
+  <p>Primer avance — información sobre mí, mis gustos y viajes</p>
 </header>
 
 <nav>
@@ -121,7 +40,7 @@
   <section id="sobre-mi">
     <article>
       <h2>Sobre mí</h2>
-      <p class="texto-grande">
+      <p>
         Hola, mi nombre es <strong>Jhosuep</strong>. Este sitio habla sobre mis intereses, los viajes que he hecho y cosas que me representan.
       </p>
     </article>
@@ -154,19 +73,20 @@
     </article>
     <article>
       <h3>Viaje 3 — Comunidad Valenciana, España (04/08/2025)</h3>
-      <p>Una región con demasiada historia, playas y calas hermosas, el mar mediterráneo, inigualable y tranquilo. Una gastronomía deliciosa, especialmente la tortilla de patata.</p>
+      <p>Una región con demasiada historia, playas y calas hermosas, el mar mediterraneo, inigualable y tranquilo. Una gastronomía deliciosa, especialmente la tortilla de patata.</p>
     </article>
   </section>
 
   <aside>
     <h3>Autor</h3>
     <p>Nombre del autor: <strong>Jhosuep</strong></p>
-    <p>Institución: <em>Skolmi</em></p>
+    <p>Institución: <em>skolmi</em></p>
   </aside>
 
   <section id="galeria">
     <h2>Galería</h2>
     <div class="gallery">
+      <!-- aun no he puesto imágenes -->
       <img src="imagen1.jpg" alt="En esta imagen una pequeña vista a Bilbao" />
       <img src="imagen2.jpg" alt="Un atardecer en Copenhague" />
       <img src="imagen3.jpg" alt="Una playa en Alicante" />
@@ -178,19 +98,18 @@
     <article>
       <p>Correo: <a href="mailto:skolmi.jhosuep.marin@gmail.com">skolmi.jhosuep.marin@gmail.com</a></p>
       <p>Teléfono: <a href="tel:+573192241366">+57 3 192 241 366</a></p>
-      <p>Redes: <a href="#">Instagram</a>
+      <p>Redes: <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
     </article>
   </section>
 </main>
 
 <footer>
-  <p>Jhosuep — Skolmi</p>
+  <p>Jhosuep — skolmi</p>
   <p>Correo: <a href="mailto:skolmi.jhosuep.marin@gmail.com">skolmi.jhosuep.marin@gmail.com</a></p>
 </footer>
 
 </body>
 </html>
-
 
 
 
